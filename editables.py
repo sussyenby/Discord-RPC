@@ -18,3 +18,5 @@ activity_large_image = "tf3_logo" #large image
 activity_large_text = "Titanfall© 3" #large image hover text
 activity_small_image = "devbadge" #small image
 activity_small_text = "Developer Build" #small image hover text
+
+
