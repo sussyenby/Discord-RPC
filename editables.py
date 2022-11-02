@@ -2,23 +2,23 @@
 
 
 
-APPLICATION_ID = 1036740499551293602 #edit this to your application, giving you its name and icons
+APPLICATION_ID =  #Integer - edit this to your application, giving you its name and icons
 
-activity_state = "Playing co-op" #edit this to change what the game displays you are doing
+activity_state = "playing co-op" #String - edit this to change what the game displays you are doing
 
 #party stuff
-    #edit these to change party max size and current size
-activity_party_size = 1
-activity_party_max_size = 4
+    # leave these two blank if you don't want to show party size
+activity_party_size = 4 # Integer - edit this to change the party size shown (x of 4)
+activity_party_max_size = 2 # Integer - edit this to change the party size shown (2 of x)
     #dont edit these:
-activity_secrets_join = "my_secret"
-activity_party_id = "my_party_id"
+activity_secrets_join = "party_secret"
+activity_party_id = "party_id"
 
 #images
-
-activity_large_image = "tf3_logo" #large image
-activity_large_text = "Titanfall© 3" #large image hover text
-activity_small_image = "devbadge" #small image
-activity_small_text = "Developer Build" #small image hover text
+#all of the below need to be strings
+activity_large_image = "" #large image
+activity_large_text = "" #large image hover text
+activity_small_image = "" #small image
+activity_small_text = "" #small image hover text
 
 
