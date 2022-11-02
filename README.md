@@ -1,5 +1,15 @@
 # Discord-RPC
-Discord RPC featuring invite functionality
+Custom Discord RPC made in Python. Invite your friends and show off with a custom status!
 
+# Usage
 
-Are you a schizo? Do you want people to think you're playing titanfall 3? Well look no further, because this rpc allows you to make custom invites and parties to show off
+Use this tool to set up custom RPC for you and your friends! Fit with custom statuses and invites.
+
+## Features
+
+This is mostly a small project, so don't expect too much. There's always better alternatives.
+- Custom invitations
+- Custom Status
+- Custom activity icon
+- Timestamps
+- Simplistic GUI
