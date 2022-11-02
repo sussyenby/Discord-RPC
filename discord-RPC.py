@@ -1,10 +1,8 @@
 import time
 #importing the variables
 from editables import APPLICATION_ID, activity_state, activity_party_size, activity_party_max_size, activity_secrets_join, activity_party_id, activity_large_image, activity_large_text, activity_small_image, activity_small_text
-
+from tkinter import *
 import discordsdk as sdk
-
-
 
 app = sdk.Discord(APPLICATION_ID, sdk.CreateFlags.default)
 
@@ -43,6 +41,8 @@ if activity_small_text != "":
 def callback(result):
     if result == sdk.Result.ok:
         print("Successfully set the activity!")
+
+        import tkinterui # This probably won't work in the long run (cause we want the ui to update,) but it works for now
     else:
         raise Exception(result)
 
