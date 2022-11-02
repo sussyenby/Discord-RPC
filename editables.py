@@ -1,6 +1,4 @@
-
-
-
+# Where to set your status/activity/rpc information
 
 APPLICATION_ID =  #Integer - edit this to your application, giving you its name and icons
 

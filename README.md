@@ -12,4 +12,9 @@ This is mostly a small project, so don't expect too much. There's always better 
 - Custom Status
 - Custom activity icon
 - Timestamps
-- Simplistic GUI
+- Simplistic GUI (WIP)
+
+### Developers/Contributors
+
+- DINOTICK
+- Wiki
