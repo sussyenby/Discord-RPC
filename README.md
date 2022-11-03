@@ -1,4 +1,4 @@
-# Discord-RPC
+# Discord-RPC (CLI EDITION)
 Custom Discord RPC made in Python. Invite your friends and show off with a custom status!
 
 # Usage
@@ -12,7 +12,7 @@ This is mostly a small project, so don't expect too much. There's always better 
 - Custom Status
 - Custom activity icon
 - Timestamps (WIP)
-- Simplistic GUI (WIP)
+- Functional CLI (This is the CLI branch, please see the main/gui branch for GUI.)
 
 ### Developers/Contributors
 
