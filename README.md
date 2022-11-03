@@ -11,7 +11,7 @@ This is mostly a small project, so don't expect too much. There's always better 
 - Custom invitations
 - Custom Status
 - Custom activity icon
-- Timestamps
+- Timestamps (WIP)
 - Simplistic GUI (WIP)
 
 ### Developers/Contributors
