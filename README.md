@@ -16,5 +16,10 @@ This is mostly a small project, so don't expect too much. There's always better 
 
 ### Developers/Contributors
 
-- DINOTICK
 - Wiki
+- DINOTICK
+
+
+### Release Info
+
+Releases will be added once we have a stable foundation for the application, and will be compiled with autopy2exe.
