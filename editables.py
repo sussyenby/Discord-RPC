@@ -2,11 +2,11 @@
 
 APPLICATION_ID =  #Integer - edit this to your application, giving you its name and icons
 
-activity_state = "playing co-op" #String - edit this to change what the game displays you are doing
+activity_state = "ACTIVITY HERE" #String - edit this to change what the game displays you are doing
 
 #party stuff
     # leave these two blank if you don't want to show party size
-activity_party_size = 2 # Integer - edit this to change the party size shown (2 of x)
+activity_party_size = 1 # Integer - edit this to change the party size shown (2 of x)
 activity_party_max_size = 4 # Integer - edit this to change the party size shown (x of 4)
     #dont edit these:
 activity_secrets_join = "party_secret"
