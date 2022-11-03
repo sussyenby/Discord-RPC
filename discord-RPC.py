@@ -1,9 +1,11 @@
 import time
 #importing the variables
-from editables import APPLICATION_ID, activity_state, activity_party_size, activity_party_max_size, activity_secrets_join, activity_party_id, activity_large_image, activity_large_text, activity_small_image, activity_small_text
 
 #discord sdk moment
 import discordsdk as sdk
+
+
+APPLICATION_ID = int(input("Application ID: "))
 
 app = sdk.Discord(APPLICATION_ID, sdk.CreateFlags.default)
 
@@ -13,30 +15,25 @@ activity_manager = app.get_activity_manager()
 activity = sdk.Activity()
 #set variables for discord rich presence
 #if a variable is blank, it will not be displayed
-if activity_state != "":
-    activity.state = activity_state
+
+activity.state = input("Activity State: ")
 
 
-if activity_party_size != "":
-    activity.party.size.current_size = activity_party_size
-if activity_party_max_size != "":
-    activity.party.size.max_size = activity_party_max_size
-if activity_secrets_join != "":
-    activity.secrets.join = activity_secrets_join
-if activity_party_id != "":
-    activity.party.id = activity_party_id
+
+activity.party.size.current_size = int(input("Party Current Size: "))
+
+activity.party.size.max_size = int(input("Party Max Size: "))
+
+activity.secrets.join = "activity_secret"
+
+activity.party.id = input("Party ID: ")
 
 
-if activity_large_image != "":
-    activity.assets.large_image = activity_large_image
-if activity_large_text != "":
-    activity.assets.large_text = activity_large_text
-if activity_small_image != "":
-    activity.assets.small_image = activity_small_image
-if activity_small_text != "":
-    activity.assets.small_text = activity_small_text
+activity.assets.large_image = input("Large Image Name: ")
 
+activity.assets.small_image = input("Small Image Name: ")
 
+print("Please wait... (estimated 3 seconds)")
 
 
 def callback(result):
