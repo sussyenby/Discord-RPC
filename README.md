@@ -11,6 +11,7 @@ This is mostly a small project, so don't expect too much. There's always better 
 - Custom invitations
 - Custom Status
 - Custom activity icon
+- Time-Elapse
 - Timestamps (WIP)
 - Functional CLI (This is the CLI branch, please see the main/gui branch for GUI.)
 
