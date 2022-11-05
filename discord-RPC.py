@@ -1,12 +1,26 @@
 import time
 import datetime
 import os
+import webbrowser
 
 # discord sdk moment
 import discordsdk as sdk
 
 
 def main():
+    
+    print("Welcome! Use CTRL+C to exit the application\nTo set a custom rich-presence, press 1 and then enter\nTo view a tutorial, press 2 and then enter\nTo exit, press 3 and then enter")
+    menuopt = str(input("Selection: "))
+    if menuopt == "3":
+        print("\nExiting Application...")
+        time.sleep(1.5)
+        print("Have a good day! :)")
+        time.sleep(0.5)
+        os._exit(0)
+    elif menuopt == "2":
+        webbrowser.open_new_tab("https://dinotick.github.io")       # temporary url lol
+
+
     APPLICATION_ID = int(input("Application ID: "))
 
     app = sdk.Discord(APPLICATION_ID, sdk.CreateFlags.default)
@@ -21,6 +35,7 @@ def main():
 
 
     ############################################################
+
 
     activity.state = input("Activity State: ")
 
