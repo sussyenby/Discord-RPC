@@ -7,6 +7,8 @@ import webbrowser
 import discordsdk as sdk
 
 
+# hmmm so how would we modify the status? would we make the time elapse also serve as an input? Wiki need some help here lol
+
 def main():
     
     print("Welcome! Use CTRL+C to exit the application\nTo set a custom rich-presence, press 1 and then enter\nTo view a tutorial, press 2 and then enter\nTo exit, press 3 and then enter")
