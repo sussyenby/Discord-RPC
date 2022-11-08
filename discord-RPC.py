@@ -9,9 +9,8 @@ app = sdk.Discord(APPLICATION_ID, sdk.CreateFlags.default)
 
 activity_manager = app.get_activity_manager()
 
-# set variables for discord rich presence
 activity = sdk.Activity()
-# set variables for discord rich presence
+
 # if a variable is blank, it will not be displayed
 if activity_state != "":
     activity.state = activity_state
